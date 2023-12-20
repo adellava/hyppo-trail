@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Hyppo Trail',
-  description: 'a bikepacking route in the Treviso Prealps&Hills',
+  description: 'an unsupported bikepacking trail 210 km and 4500 D+ to be completed in 18h',
 }
 
 export default function RootLayout({
