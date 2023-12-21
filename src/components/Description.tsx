@@ -1,7 +1,8 @@
 "use client";
 
+import { isItalian } from "../utils";
+
 export default function Description() {
-  const isItalian = () => navigator.language.includes("it");
   return (
     <span>
       {isItalian()
