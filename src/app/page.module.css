@@ -87,3 +87,34 @@
   margin-bottom: 1rem;
   color: #006B5B;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.row__column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  min-width: 500px;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.horizonatalFlex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 2rem 0;
+  gap: 2rem;
+}
