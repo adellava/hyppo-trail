@@ -1,0 +1,25 @@
+var _iub = _iub || [];
+_iub.csConfiguration = {
+  askConsentAtCookiePolicyUpdate: true,
+  enableFadp: true,
+  enableLgpd: true,
+  enableUspr: true,
+  fadpApplies: true,
+  floatingPreferencesButtonDisplay: "bottom-right",
+  perPurposeConsent: true,
+  siteId: 3424750,
+  usprApplies: true,
+  whitelabel: false,
+  cookiePolicyId: 55651783,
+  lang: "it",
+  banner: {
+    acceptButtonDisplay: true,
+    closeButtonDisplay: false,
+    customizeButtonDisplay: true,
+    explicitWithdrawal: true,
+    listPurposes: true,
+    position: "float-top-center",
+    rejectButtonDisplay: true,
+    showTitle: false,
+  },
+};
