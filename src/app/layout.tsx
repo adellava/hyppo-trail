@@ -11,34 +11,6 @@ export const metadata: Metadata = {
     "an unsupported bikepacking trail 210 km and 4500 D+ to be completed in 18h",
 };
 
-if (typeof window !== "undefined") {
-  window._iub = [];
-  window._iub.csConfiguration = {
-    askConsentAtCookiePolicyUpdate: true,
-    enableFadp: true,
-    enableLgpd: true,
-    enableUspr: true,
-    fadpApplies: true,
-    floatingPreferencesButtonDisplay: "bottom-right",
-    perPurposeConsent: true,
-    siteId: 3424750,
-    usprApplies: true,
-    whitelabel: false,
-    cookiePolicyId: 55651783,
-    lang: "it",
-    banner: {
-      acceptButtonDisplay: true,
-      closeButtonDisplay: false,
-      customizeButtonDisplay: true,
-      explicitWithdrawal: true,
-      listPurposes: true,
-      position: "float-top-center",
-      rejectButtonDisplay: true,
-      showTitle: false,
-    },
-  };
-}
-
 export default function RootLayout({
   children,
 }: {
@@ -49,10 +21,7 @@ export default function RootLayout({
       <body className={opensans.className}>
         {children}
         <Script src="https://cdn.iubenda.com/iubenda.js" />
-        <Script
-          type="text/javascript"
-          src="/iubenda.js"
-        ></Script>
+        <Script type="text/javascript" src="/iubenda.js"></Script>
         <Script
           type="text/javascript"
           src="https://cs.iubenda.com/autoblocking/3424750.js"
