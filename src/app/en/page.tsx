@@ -66,7 +66,7 @@ export default function Home() {
               target="_blanck"
               href="https://docs.google.com/document/d/1ziy1dPimT-E23iJuSbz0nGelAvLbQnoMzEYpjb5SLf8/view"
             >
-              event rules
+              rules
             </a>
           </p>
         </div>
