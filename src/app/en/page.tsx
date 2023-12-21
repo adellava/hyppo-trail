@@ -25,7 +25,8 @@ export default function Home() {
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
           210 km / 4500 D+ to be completed 18h
-          <br/>Max 150 participants
+          <br />
+          Max 150 participants
         </p>
         <p className={styles.heroDate}>Treviso, April 13th 2024 @7:00AM</p>
         <a
@@ -58,8 +59,8 @@ export default function Home() {
             14th).
           </p>
           <p className={styles.paragraph}>
-            Se lo concludete con successo potete ritenervi pronti per i trail
-            più lunghi.
+            If you complete it successfully you can consider yourself ready for
+            the "real" trails.
           </p>
           <p className={styles.paragraph}>
             If you want to know more read the{" "}
@@ -88,8 +89,8 @@ export default function Home() {
           <div className={styles.horizonatalFlex}>
             <AmgLogo />
             <p className={styles.paragraph}>
-              The trail is organized by AMG Alta Marca Gravel ASD. We were born with
-              the aim to create moments of sharing for all enthusiasts of
+              The trail is organized by AMG Alta Marca Gravel ASD. We were born
+              with the aim to create moments of sharing for all enthusiasts of
               cycling. This is one of those moments.
             </p>
           </div>

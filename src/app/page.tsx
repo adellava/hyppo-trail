@@ -25,7 +25,8 @@ export default function Home() {
         <p className={styles.heroDescription}>
           La Hippo è un unsupported bikepacking trail, single stage, fixed route
           210 km / 4500 D+ da completare in 18 ore
-          <br/>Massimo 150 partecipanti
+          <br />
+          Massimo 150 partecipanti
         </p>
         <p className={styles.heroDate}>Treviso, 13 Aprile 2024 @7:00AM</p>
         <a
@@ -57,8 +58,8 @@ export default function Home() {
             La sfida è concluderlo entro 18 ore (ore 1:00 del 14 Aprile).
           </p>
           <p className={styles.paragraph}>
-            If you complete it successfully you can consider yourself ready for
-            the "real" trails.
+            Se lo concludete con successo potete ritenervi pronti per i trail
+            più lunghi.
           </p>
           <p className={styles.paragraph}>
             Se vuoi sapere di più leggi il{" "}
