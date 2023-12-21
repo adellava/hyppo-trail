@@ -87,7 +87,7 @@ export default function Home() {
           <div className={styles.horizonatalFlex}>
             <AmgLogo />
             <p className={styles.paragraph}>
-              The trail is organized by AMG Alta Marca Gravel. We were born with
+              The trail is organized by AMG Alta Marca Gravel ASD. We were born with
               the aim to create moments of sharing for all enthusiasts of
               cycling. This is one of those moments.
             </p>
@@ -100,7 +100,7 @@ export default function Home() {
           <FacebookIcon />
           <InstagramIcon />
         </div>
-        <p>
+        <p className={styles.footer__address}>
           Copyright © 2023 AMG ALTA MARCA GRAVEL ASD, VIA II GIUGNO, 54 VILLORBA
           (TV) P.IVA: 05286420269
         </p>

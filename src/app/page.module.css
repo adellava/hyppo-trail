@@ -69,6 +69,10 @@
   margin-top: 1rem;
 }
 
+.footer__address {
+  margin: 0 1rem;
+}
+
 .mainCta {
   clear: both;
   display: inline-block;
@@ -114,7 +118,7 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  min-width: 500px;
+  min-width: 350px;
 }
 
 .paragraph, .paragraph___featured {

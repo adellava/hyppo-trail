@@ -99,7 +99,7 @@ export default function Home() {
           <FacebookIcon />
           <InstagramIcon />
         </div>
-        <p>
+        <p className={styles.footer__address}>
           Copyright © 2023 AMG ALTA MARCA GRAVEL ASD, VIA II GIUGNO, 54 VILLORBA
           (TV) P.IVA: 05286420269
         </p>
