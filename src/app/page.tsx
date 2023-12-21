@@ -9,10 +9,6 @@ import {
   CoverImage,
   Map,
 } from "../images/";
-import Description from "../components/Description";
-import Challenge from "../components/Challenge";
-import ChallengeBis from "../components/ChallengeBis";
-import Rules from "../components/Rules";
 
 export default function Home() {
   return (
@@ -33,7 +29,7 @@ export default function Home() {
           target="_blanck"
           href="https://forms.gle/xqUSt1SXj7xLCwaA9"
         >
-          registration
+          iscriviti
         </a>
         <CoverImage />
       </section>
@@ -41,16 +37,29 @@ export default function Home() {
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
-            <Description />
+            La Hippo Bike Trail si sviluppa su un percorso ad anello, con
+            partenza e arrivo a Habitat le Bandie, lungo 210 km ( sterrato
+            all’85% ) con 4500 metri di dislivello. Dentro la Hyppo trail
+            troverete tutti gli ingredienti di un vero trail: hike-a-bike,
+            guadi, un lungo tratto in quota senza presenza umana, discese
+            scassate, ... insomma non presentatevi se non avete almeno una gomma
+            da 45mm 😜
           </p>
           <p className={styles.paragraph___featured}>
-            <Challenge />
+            La sfida è concluderlo entro 18 ore (ore 1:00 del 14 Aprile).
           </p>
           <p className={styles.paragraph}>
-            <ChallengeBis />
+            Se lo concludete con successo potete ritenervi pronti per i trail
+            più lunghi.
           </p>
           <p className={styles.paragraph}>
-            <Rules />
+            Se vuoi sapere di più leggi il{" "}
+            <a
+              target="_blanck"
+              href="https://docs.google.com/document/d/1tFjGzyMs6XhUHhFCs37sNum7AuV8YPR8qFyQjkTRTF4/view"
+            >
+              regolamento dell’evento
+            </a>
           </p>
         </div>
         <div className={styles.row__column}>
