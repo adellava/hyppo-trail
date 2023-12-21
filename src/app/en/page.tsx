@@ -25,6 +25,7 @@ export default function Home() {
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
           210 km / 4500 D+ to be completed 18h
+          <br/>Max 150 participants
         </p>
         <p className={styles.heroDate}>Treviso, April 13th 2024 @7:00AM</p>
         <a
