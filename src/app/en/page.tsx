@@ -47,7 +47,7 @@ export default function Home() {
               Habitat le Bandie
             </a>
             , 210 km long (dirt road at 85%) with 4500 meters of altitude
-            difference. Inside the Hyppo trail you will find all the ingredients
+            difference. Inside the Hippo trail you will find all the ingredients
             of a real trail: hike-a-bike, fords crossing, a long part without
             human presence, rocky descents , ... in short, use at least a 45mm
             tyre 😜

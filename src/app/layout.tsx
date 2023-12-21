@@ -6,7 +6,7 @@ import "./globals.css";
 const opensans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hyppo Trail",
+  title: "Hippo Trail",
   description:
     "an unsupported bikepacking trail 210 km and 4500 D+ to be completed in 18h",
 };

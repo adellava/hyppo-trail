@@ -47,7 +47,7 @@ export default function Home() {
               Habitat le Bandie
             </a>
             , lungo 210 km ( sterrato all’85% ) con 4500 metri di dislivello.
-            Dentro la Hyppo trail troverete tutti gli ingredienti di un vero
+            Dentro la Hippo trail troverete tutti gli ingredienti di un vero
             trail: hike-a-bike, guadi, un lungo tratto in quota senza presenza
             umana, discese scassate, ... insomma non presentatevi se non avete
             almeno una gomma da 45mm 😜
