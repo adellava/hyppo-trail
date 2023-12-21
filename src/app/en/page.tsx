@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 import {
   Logo,
   FacebookIcon,
@@ -8,7 +8,7 @@ import {
   MorettiLogo,
   CoverImage,
   Map,
-} from "../images/";
+} from "../../images";
 
 export default function Home() {
   return (
@@ -17,22 +17,22 @@ export default function Home() {
         <h1>
           <Logo />
         </h1>
-        <a href="/en" className={styles.header__changeLanguage}>
-          🇬🇧
+        <a href="/" className={styles.header__changeLanguage}>
+          🇮🇹
         </a>
       </header>
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
-          La Hippo è un unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ da completare in 18 ore
+          Hippo is an unsupported bikepacking trail, single stage, fixed route
+          210 km / 4500 D+ to be completed 18h
         </p>
-        <p className={styles.heroDate}>Treviso, 13 Aprile 2024 @7:00AM</p>
+        <p className={styles.heroDate}>Treviso, April 13th 2024 @7:00AM</p>
         <a
           className={styles.mainCta}
           target="_blanck"
           href="https://forms.gle/xqUSt1SXj7xLCwaA9"
         >
-          iscriviti
+          registration
         </a>
         <CoverImage />
       </section>
@@ -40,32 +40,33 @@ export default function Home() {
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
-            La Hippo Bike Trail si sviluppa su un percorso ad anello, con
-            partenza e arrivo a{" "}
+            The Hippo Bike Trail develops on a circular route, with departure
+            and arrival at{" "}
             <a href="https://www.instagram.com/habitatbistrot/" target="_black">
               {" "}
               Habitat le Bandie
             </a>
-            , lungo 210 km ( sterrato all’85% ) con 4500 metri di dislivello.
-            Dentro la Hyppo trail troverete tutti gli ingredienti di un vero
-            trail: hike-a-bike, guadi, un lungo tratto in quota senza presenza
-            umana, discese scassate, ... insomma non presentatevi se non avete
-            almeno una gomma da 45mm 😜
+            , 210 km long (dirt road at 85%) with 4500 meters of altitude
+            difference. Inside the Hyppo trail you will find all the ingredients
+            of a real trail: hike-a-bike, fords crossing, a long part without
+            human presence, rocky descents , ... in short, use at least a 45mm
+            tyre 😜
           </p>
           <p className={styles.paragraph___featured}>
-            La sfida è concluderlo entro 18 ore (ore 1:00 del 14 Aprile).
+            The challenge is to complete it within 18 hours (1:00 am on April
+            14th).
           </p>
           <p className={styles.paragraph}>
-            If you complete it successfully you can consider yourself ready for
-            the "real" trails.
+            Se lo concludete con successo potete ritenervi pronti per i trail
+            più lunghi.
           </p>
           <p className={styles.paragraph}>
-            Se vuoi sapere di più leggi il{" "}
+            If you want to know more read the{" "}
             <a
               target="_blanck"
-              href="https://docs.google.com/document/d/1tFjGzyMs6XhUHhFCs37sNum7AuV8YPR8qFyQjkTRTF4/view"
+              href="https://docs.google.com/document/d/1ziy1dPimT-E23iJuSbz0nGelAvLbQnoMzEYpjb5SLf8/view"
             >
-              regolamento dell’evento
+              event rules
             </a>
           </p>
         </div>
@@ -82,13 +83,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.row__column}>
-          <h2 className={styles.subtitle}>Chi Siamo</h2>
+          <h2 className={styles.subtitle}>About</h2>
           <div className={styles.horizonatalFlex}>
             <AmgLogo />
             <p className={styles.paragraph}>
-              Il trail è organizzato da AMG Alta Marca Gravel. Siamo nati con lo
-              scopo di creare momenti di condivisione per tutti gli appassionati
-              del ciclismo. Questo è uno di quei momenti.
+              The trail is organized by AMG Alta Marca Gravel. We were born with
+              the aim to create moments of sharing for all enthusiasts of
+              cycling. This is one of those moments.
             </p>
           </div>
         </div>
