@@ -18,19 +18,23 @@ export default function Home() {
           <Logo />
         </h1>
       </header>
-      <section>
-        <p>
+      <section className={styles.coverImage}>
+        <p className={styles.heroDescription}>
           Hippo è un trail bikepacking unsupported, tappa unica, traccia fissa
           210 km e 4500 D+ da concludere in 18h
         </p>
-        <p>Treviso, 13 Aprile 2024 ore 7:00</p>
-        <a target="_blanck" href="https://forms.gle/xqUSt1SXj7xLCwaA9">
+        <p className={styles.heroDate}>Treviso, 13 Aprile 2024 ore 7:00</p>
+        <a
+          className={styles.mainCta}
+          target="_blanck"
+          href="https://forms.gle/xqUSt1SXj7xLCwaA9"
+        >
           iscriviti
         </a>
         <CoverImage />
       </section>
       <section>
-        <h2>Trail</h2>
+        <h2 className={styles.subtitle}>Trail</h2>
         <p>
           La Hippo Bike Trail si sviluppa su un percorso ad anello, con partenza
           e arrivo a Habitat le Bandie, lungo 210 km ( sterrato all’85% ) con
@@ -56,10 +60,10 @@ export default function Home() {
         <Map />
       </section>
       <section>
-        <h2>Partner</h2>
+        <h2 className={styles.subtitle}>Partner</h2>
         <MorettiLogo />
         <HabitatLogo />
-        <h2>Chi Siamo</h2>
+        <h2 className={styles.subtitle}>Chi Siamo</h2>
         <AmgLogo />
         <p>
           Il trail è organizzato da AMG Alta Marca Gravel. Siamo nati con lo
@@ -68,21 +72,31 @@ export default function Home() {
         </p>
       </section>
 
-      <footer>
-        <FacebookIcon />
-        <InstagramIcon />
+      <footer className={styles.footer}>
+        <div className={styles.footer__social}>
+          <FacebookIcon />
+          <InstagramIcon />
+        </div>
         <p>
           Copyright © 2023 AMG ALTA MARCA GRAVEL ASD, VIA II GIUGNO, 54 VILLORBA
           (TV) P.IVA: 05286420269
         </p>
-        <p>
-          leggi la nostra
+        <p className={styles.footer__iubenda}>
           <a
             target="_black"
+            className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe "
             href="https://www.iubenda.com/privacy-policy/55651783"
             title="Privacy Policy"
           >
             Privacy Policy
+          </a>{" "}
+          <a
+            target="_black"
+            href="https://www.iubenda.com/privacy-policy/55651783/cookie-policy"
+            className="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe "
+            title="Cookie Policy "
+          >
+            Cookie Policy
           </a>
         </p>
       </footer>

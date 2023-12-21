@@ -2,22 +2,15 @@ import Image from "next/image";
 
 export function CoverImage() {
   return (
-    <div
+    <Image
+      src="/cover.png"
+      fill={true}
+      alt="hippo cover image"
       style={{
-        position: "relative",
-        minHeight: 400,
-        height: "60vh",
-        width: "100%",
+        objectFit: "cover",
+        position: "absolute",
+        zIndex: -1,
       }}
-    >
-      <Image
-        src="/cover.png"
-        fill={true}
-        alt="hippo cover image"
-        style={{
-          objectFit: "cover",
-        }}
-      />
-    </div>
+    />
   );
 }

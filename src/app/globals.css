@@ -53,4 +53,17 @@ html {
 
 body {
   text-align: center;
+  color: #1E1E1E;
+}
+
+a {
+	color:#006B5B;
+}
+
+a:visited {
+	color:#006B5B;
+}
+
+a:hover {
+	color:#1E1E1E;
 }

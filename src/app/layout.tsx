@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={opensans.className}>
         {children}
+        <Script src="https://cdn.iubenda.com/iubenda.js" />
       </body>
     </html>
   );
