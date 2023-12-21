@@ -18,10 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script type="text/javascript" src="/iubenda.js"></Script>
       <body className={opensans.className}>
         {children}
         <Script src="https://cdn.iubenda.com/iubenda.js" />
-        <Script type="text/javascript" src="/iubenda.js"></Script>
         <Script
           type="text/javascript"
           src="https://cs.iubenda.com/autoblocking/3424750.js"

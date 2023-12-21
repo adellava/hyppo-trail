@@ -1,0 +1,1 @@
+export const isItalian = () => navigator.language.includes("it");

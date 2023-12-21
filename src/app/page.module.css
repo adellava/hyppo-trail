@@ -105,10 +105,14 @@
   min-width: 500px;
 }
 
-.paragraph {
+.paragraph, .paragraph___featured {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+.paragraph___featured {
+  font-weight: bold;
 }
 
 .horizonatalFlex {
