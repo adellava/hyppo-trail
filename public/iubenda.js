@@ -1,10 +1,10 @@
 var _iub = _iub || [];
 _iub.csConfiguration = {
-  askConsentAtCookiePolicyUpdate: true,
-  enableFadp: true,
-  enableLgpd: true,
-  enableUspr: true,
-  fadpApplies: true,
+  askConsentAtCookiePolicyUpdate: false,
+  enableFadp: false,
+  enableLgpd: false,
+  enableUspr: false,
+  fadpApplies: false,
   floatingPreferencesButtonDisplay: "bottom-right",
   perPurposeConsent: true,
   siteId: 3424750,
