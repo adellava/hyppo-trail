@@ -5,7 +5,7 @@ export function Map() {
     <div
     style={{
       position: "relative",
-      minHeight: 400,
+      minHeight: 540,
       width: "100%",
     }}
   >
