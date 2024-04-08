@@ -39,6 +39,9 @@ export default function Home() {
         <CoverImage />
       </section>
       <section className={styles.row}>
+        <iframe src="https://www.whip.live/event-tracking/HBT24" width="100%" height="600" title="Live Tracking"></iframe>
+      </section>
+      <section className={styles.row}>
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
