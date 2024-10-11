@@ -29,7 +29,7 @@ export default function Home() {
           Massimo 100 partecipanti
         </p>
         <p className={styles.heroDate}>Treviso, 12 Aprile 2025 @6:30AM</p>
-        <p>Le iscrizioni apriranno il 1 Dicembre</p>
+        <p className={styles.heroDescription}>Le iscrizioni apriranno il 1 Dicembre</p>
         {/* <a
           className={styles.mainCta}
           target="_blanck"
@@ -38,7 +38,7 @@ export default function Home() {
         </a> */}
         <CoverImage />
       </section>
-      <section className={styles.row}>xqddd
+      <section className={styles.row}>
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
