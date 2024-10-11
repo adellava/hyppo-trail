@@ -24,24 +24,21 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           La Hippo è un unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ da completare in 18 ore
+          210 km / 4500 D+ da completare in 20 ore
           <br />
-          Massimo 150 partecipanti
+          Massimo 100 partecipanti
         </p>
-        <p className={styles.heroDate}>Treviso, 13 Aprile 2024 @7:00AM</p>
-        <a
+        <p className={styles.heroDate}>Treviso, 12 Aprile 2025 @6:30AM</p>
+        <p>Le iscrizioni apriranno il 1 Dicembre</p>
+        {/* <a
           className={styles.mainCta}
           target="_blanck"
-          href="https://forms.gle/xqUSt1SXj7xLCwaA9"
         >
           iscriviti
-        </a>
+        </a> */}
         <CoverImage />
       </section>
-      <section className={styles.row}>
-        <iframe src="https://www.whip.live/event-tracking/HBT24" width="100%" height="600" title="Live Tracking"></iframe>
-      </section>
-      <section className={styles.row}>
+      <section className={styles.row}>xqddd
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
@@ -58,7 +55,7 @@ export default function Home() {
             almeno una gomma da 45mm 😜
           </p>
           <p className={styles.paragraph___featured}>
-            La sfida è concluderlo entro 18 ore (ore 1:00 del 14 Aprile).
+            La sfida è concluderlo entro 20 ore (ore 1:30 del 13 Aprile).
           </p>
           <p className={styles.paragraph}>
             Se lo concludete con successo potete ritenervi pronti per i trail

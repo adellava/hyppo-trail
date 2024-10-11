@@ -24,22 +24,20 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ to be completed 18h
+          210 km / 4500 D+ to be completed 20h
           <br />
-          Max 150 participants
+          Max 100 participants
         </p>
-        <p className={styles.heroDate}>Treviso, April 13th 2024 @7:00AM</p>
-        <a
+        <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
+        <p>registrations will open December 1st</p>
+        {/* <a
           className={styles.mainCta}
           target="_blanck"
           href="https://forms.gle/xqUSt1SXj7xLCwaA9"
         >
           registration
-        </a>
+        </a> */}
         <CoverImage />
-      </section>
-      <section className={styles.row}>
-        <iframe src="https://www.whip.live/event-tracking/HBT24" width="100%" height="600" title="Live Tracking"></iframe>
       </section>
       <section className={styles.row}>
         <div className={styles.row__column}>
