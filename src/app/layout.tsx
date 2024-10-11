@@ -35,6 +35,7 @@ export default function RootLayout({
           src="//cdn.iubenda.com/cs/iubenda_cs.js"
           async
         ></Script>
+      <Script src='https://picflow.com/embed/main.js' type="module" defer></Script>
       </body>
     </html>
   );

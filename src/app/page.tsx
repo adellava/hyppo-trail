@@ -96,6 +96,13 @@ export default function Home() {
         </div>
       </section>
 
+      <section className={styles.row}>
+        <div className={styles.row__column}>
+          <h2 className={styles.subtitle}>Photo Gallery</h2>
+          <picflow-gallery id="gal_Qd40LwN4VshmBq3v" lightbox="#000000E6"></picflow-gallery>
+        </div>
+      </section>
+
       <footer className={styles.footer}>
         <div className={styles.footer__social}>
           <FacebookIcon />
