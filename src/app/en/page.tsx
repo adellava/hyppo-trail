@@ -24,7 +24,7 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ to be completed 20h
+          210 km / 4500 D+ to be completed 19h
           <br />
           Max 100 participants
         </p>
@@ -56,7 +56,7 @@ export default function Home() {
             tyre 😜
           </p>
           <p className={styles.paragraph___featured}>
-            The challenge is to complete it within 18 hours (1:00 am on April
+            The challenge is to complete it within 19 hours (1:30 am on April
             14th).
           </p>
           <p className={styles.paragraph}>
