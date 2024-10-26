@@ -28,8 +28,8 @@ export default function Home() {
           <br />
           Max 100 participants
         </p>
-        <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
-        <p className={styles.heroDescription}>registrations will open December 1st</p>
+        {/* <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
+        <p className={styles.heroDescription}>registrations will open December 1st</p> */}
         {/* <a
           className={styles.mainCta}
           target="_blanck"
