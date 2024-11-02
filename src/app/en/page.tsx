@@ -28,8 +28,8 @@ export default function Home() {
           <br />
           Max 100 participants
         </p>
-        {/* <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
-        <p className={styles.heroDescription}>registrations will open December 1st</p> */}
+        <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
+        <p className={styles.heroDescription}>registrations will open December 1st</p>
         {/* <a
           className={styles.mainCta}
           target="_blanck"
@@ -39,7 +39,7 @@ export default function Home() {
         </a> */}
         <CoverImage />
       </section>
-      <section className={styles.row}>
+      {/* <section className={styles.row}>
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
           <p className={styles.paragraph}>
@@ -76,7 +76,7 @@ export default function Home() {
         <div className={styles.row__column}>
           <Map />
         </div>
-      </section>
+      </section> */}
       <section className={styles.row}>
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Partner</h2>
