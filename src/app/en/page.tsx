@@ -29,7 +29,6 @@ export default function Home() {
           Max 100 participants
         </p>
         <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
-        <p className={styles.heroDescription}>registrations will open December 1st</p>
         <a
           className={styles.mainCta}
           target="_blanck"
@@ -56,8 +55,7 @@ export default function Home() {
             tyre 😜
           </p>
           <p className={styles.paragraph___featured}>
-            The challenge is to complete it within 19 hours (1:30 am on April
-            14th).
+            The challenge is to complete it within 19 hours.
           </p>
           <p className={styles.paragraph}>
             If you complete it successfully you can consider yourself ready for
