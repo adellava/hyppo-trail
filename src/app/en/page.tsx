@@ -112,6 +112,8 @@ export default function Home() {
         <p className={styles.footer__address}>
           Copyright © 2023 AMG ALTA MARCA GRAVEL ASD, VIA II GIUGNO, 54 VILLORBA
           (TV) P.IVA: 05286420269
+          <br/>
+          amg.gravel@gmail.com
         </p>
         <p className={styles.footer__iubenda}>
           <a
