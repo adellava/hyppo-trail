@@ -39,7 +39,7 @@ export default function Home() {
         <CoverImage />
       </section>
       <section className={styles.row}>
-        <iframe src="https://livegps.setetrack.it/Home/IndexMapset?mapset=S00824_2025" style={{ border: 'none' , width: '100%', height: '320px'}} />
+        <iframe src="https://livegps.setetrack.it/Home/IndexMapset?mapset=S00824_2025&version=lite" style={{ border: 'none' , width: '100%', height: '640px'}} />
       </section>
       <section className={styles.row}>
         <div className={styles.row__column}>
