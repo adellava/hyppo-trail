@@ -29,18 +29,18 @@ export default function Home() {
           Max 150 participants
         </p>
         <p className={styles.heroDate}>Treviso, April 11th 2026 @6:30:00AM</p>
-        <a
+        {/* <a
           className={styles.mainCta}
           target="_blanck"
           href="https://api.endu.net/r/i/94851"
         >
           registration
-        </a>
+        </a> */}
         <CoverImage />
       </section>
-      <section className={styles.row}>
+      {/* <section className={styles.row}>
         <iframe src="https://livegps.setetrack.it/Home/IndexMapset?mapset=S00824_2025&version=lite" style={{ border: 'none' , width: '100%', height: '640px'}} />
-      </section>
+      </section> */}
       <section className={styles.row}>
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Trail</h2>
