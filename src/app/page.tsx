@@ -66,7 +66,6 @@ export default function Home() {
         </div>
         <div className={styles.row__column}>
           {/* <Map /> */}
-          La mappa della traccia verrà presto aggiornata
         </div>
       </section>
       <section className={styles.row}>

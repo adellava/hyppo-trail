@@ -76,7 +76,6 @@ export default function Home() {
         </div>
         <div className={styles.row__column}>
           {/* <Map /> */}
-          Provisional Route coming soon
         </div>
       </section>
       <section className={styles.row}>
