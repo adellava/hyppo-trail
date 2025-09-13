@@ -24,22 +24,12 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           La Hippo è un unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ da completare in 19 ore
+          210 km / 4700 D+ da completare entro mezzanotte
           <br />
-          Massimo 100 partecipanti
+          Massimo 150 partecipanti
         </p>
-        <p className={styles.heroDate}>Treviso, 12 Aprile 2025 @6:30AM</p>
-        <a
-          className={styles.mainCta}
-          target="_blanck"
-          href="https://api.endu.net/r/i/94851" 
-        >
-          iscriviti
-        </a>
+        <p className={styles.heroDate}>Treviso, 11 Aprile 2026 @6:30AM</p>
         <CoverImage />
-      </section>
-      <section className={styles.row}>
-        <iframe src="https://livegps.setetrack.it/Home/IndexMapset?mapset=S00824_2025&version=lite" style={{ border: 'none' , width: '100%', height: '640px'}} />
       </section>
       <section className={styles.row}>
         <div className={styles.row__column}>
@@ -51,20 +41,20 @@ export default function Home() {
               {" "}
               Habitat le Bandie
             </a>
-            , lungo 210 km ( sterrato all’85% ) con 4500 metri di dislivello.
+            , lungo 210 km ( sterrato all’85% ) con 4700 metri di dislivello.
             Dentro la Hippo trail troverete tutti gli ingredienti di un vero
             trail: hike-a-bike, guadi, un lungo tratto in quota senza presenza
             umana, discese scassate, ... insomma non presentatevi se non avete
-            almeno una gomma da 45mm 😜
+            almeno una gomma da 50mm 😜 e scarpe comode
           </p>
           <p className={styles.paragraph___featured}>
-            La sfida è concluderlo entro 19 ore (ore 1:30 del 13 Aprile).
+            La sfida è concluderlo entro 17:30 ore (ore 24:00).
           </p>
           <p className={styles.paragraph}>
             Se lo concludete con successo potete ritenervi pronti per i trail
             più lunghi.
           </p>
-          <p className={styles.paragraph}>
+          {/* <p className={styles.paragraph}>
             Se vuoi sapere di più leggi il{" "}
             <a
               target="_blanck"
@@ -72,10 +62,11 @@ export default function Home() {
             >
               regolamento
             </a>
-          </p>
+          </p> */}
         </div>
         <div className={styles.row__column}>
-          <Map />
+          {/* <Map /> */}
+          La mappa della traccia verrà presto aggiornata
         </div>
       </section>
       <section className={styles.row}>

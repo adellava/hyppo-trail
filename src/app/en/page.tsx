@@ -24,11 +24,11 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
-          210 km / 4500 D+ to be completed 19h
+          210 km / 4700 D+ to be completed 19h
           <br />
-          Max 100 participants
+          Max 150 participants
         </p>
-        <p className={styles.heroDate}>Treviso, April 12th 2025 @6:30:00AM</p>
+        <p className={styles.heroDate}>Treviso, April 11th 2026 @6:30:00AM</p>
         <a
           className={styles.mainCta}
           target="_blanck"
@@ -51,20 +51,20 @@ export default function Home() {
               {" "}
               Habitat le Bandie
             </a>
-            , 210 km long (dirt road at 85%) with 4500 meters of altitude
+            , 210 km long (dirt road at 85%) with 4700 meters of altitude
             difference. Inside the Hippo trail you will find all the ingredients
             of a real trail: hike-a-bike, fords crossing, a long part without
-            human presence, rocky descents , ... in short, use at least a 45mm
-            tyre 😜
+            human presence, rocky descents , ... in short, use at least a 50mm
+            tyre 😜 and comfortable shoes.
           </p>
           <p className={styles.paragraph___featured}>
-            The challenge is to complete it within 19 hours.
+            The challenge is to complete it within 17 hours and 30 mins ( midnight ).
           </p>
           <p className={styles.paragraph}>
             If you complete it successfully you can consider yourself ready for
             the "real" trails.
           </p>
-          <p className={styles.paragraph}>
+          {/* <p className={styles.paragraph}>
             If you want to know more read the{" "}
             <a
               target="_blanck"
@@ -72,10 +72,11 @@ export default function Home() {
             >
               rules
             </a>
-          </p>
+          </p> */}
         </div>
         <div className={styles.row__column}>
-          <Map />
+          {/* <Map /> */}
+          Provisional Route coming soon
         </div>
       </section>
       <section className={styles.row}>
