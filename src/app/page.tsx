@@ -47,9 +47,9 @@ export default function Home() {
             umana, discese scassate, ... insomma non presentatevi se non avete
             almeno una gomma da 50mm 😜 e scarpe comode
           </p>
-          <p className={styles.paragraph___featured}>
+          {/* <p className={styles.paragraph___featured}>
             La sfida è concluderlo entro 17:30 ore (ore 24:00).
-          </p>
+          </p> */}
           <p className={styles.paragraph}>
             Se lo concludete con successo potete ritenervi pronti per i trail
             più lunghi.
