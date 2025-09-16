@@ -24,7 +24,7 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
-          210 km / 4700 D+ to be completed 19h
+          210 km / 4700 D+
           <br />
           Max 150 participants
         </p>

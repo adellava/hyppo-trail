@@ -24,7 +24,7 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           La Hippo è un unsupported bikepacking trail, single stage, fixed route
-          210 km / 4700 D+ da completare entro mezzanotte
+          210 km / 4700 D+
           <br />
           Massimo 150 partecipanti
         </p>
