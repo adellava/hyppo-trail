@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-export function MorettiLogo() {
+export function BikemapLogo() {
   return (
-    <a target="_black" href="https://blog.morettibassano.com/">
+    <a target="_black" href="https://bike-map.it/">
       <Image
-        src="/moretti_logo.png"
+        src="/bikemap_logo.png"
         width={120}
         height={120}
-        alt="moretti logo"
+        alt="bikemap logo"
       />
     </a>
   );

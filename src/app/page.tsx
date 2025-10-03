@@ -5,7 +5,7 @@ import {
   InstagramIcon,
   AmgLogo,
   HabitatLogo,
-  MorettiLogo,
+  BikemapLogo,
   CoverImage,
   Map,
 } from "../images/";
@@ -72,7 +72,7 @@ export default function Home() {
         <div className={styles.row__column}>
           <h2 className={styles.subtitle}>Partner</h2>
           <div className={styles.horizonatalFlex}>
-            <MorettiLogo />
+            <BikemapLogo />
             <HabitatLogo />
           </div>
         </div>
