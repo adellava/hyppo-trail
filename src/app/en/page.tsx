@@ -57,9 +57,9 @@ export default function Home() {
             human presence, rocky descents , ... in short, use at least a 50mm
             tyre 😜 and comfortable shoes.
           </p>
-          {/* <p className={styles.paragraph___featured}>
-            The challenge is to complete it within 17 hours and 30 mins ( midnight ).
-          </p> */}
+          <p className={styles.paragraph___featured}>
+            The challenge is to complete it within 20 hours ( 02:30 of Aprile 12 ).
+          </p>
           <p className={styles.paragraph}>
             If you complete it successfully you can consider yourself ready for
             the "real" trails.
