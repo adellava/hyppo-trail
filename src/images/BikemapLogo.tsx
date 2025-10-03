@@ -4,7 +4,7 @@ export function BikemapLogo() {
   return (
     <a target="_black" href="https://bike-map.it/">
       <Image
-        src="/bikemap_logo.png"
+        src="/bikemap_white_logo.png"
         width={120}
         height={120}
         alt="bikemap logo"
