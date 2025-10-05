@@ -3,7 +3,7 @@ import Image from "next/image";
 export function CoverImage() {
   return (
     <Image
-      src="/cover1.jpg"
+      src="/cover2.png"
       fill={true}
       alt="hippo cover image"
       style={{
