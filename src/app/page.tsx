@@ -65,7 +65,7 @@ export default function Home() {
           </p> */}
         </div>
         <div className={styles.row__column}>
-          {/* <Map /> */}
+          <Map />
         </div>
       </section>
       <section className={styles.row}>

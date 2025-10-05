@@ -10,7 +10,7 @@ export function Map() {
     }}
   >
     <Image
-      src="/mappa_completa_25.svg"
+      src="/mappa_completa_26.svg"
       fill={true}
       style={{
         objectFit: "contain",
