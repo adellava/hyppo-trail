@@ -54,7 +54,7 @@ export default function Home() {
             Se lo concludete con successo potete ritenervi pronti per i trail
             più lunghi.
           </p>
-          {/* <p className={styles.paragraph}>
+          <p className={styles.paragraph}>
             Se vuoi sapere di più leggi il{" "}
             <a
               target="_blanck"
@@ -62,7 +62,7 @@ export default function Home() {
             >
               regolamento
             </a>
-          </p> */}
+          </p>
         </div>
         <div className={styles.row__column}>
           <Map />

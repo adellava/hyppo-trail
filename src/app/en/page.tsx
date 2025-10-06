@@ -64,15 +64,15 @@ export default function Home() {
             If you complete it successfully you can consider yourself ready for
             the "real" trails.
           </p>
-          {/* <p className={styles.paragraph}>
+          <p className={styles.paragraph}>
             If you want to know more read the{" "}
             <a
               target="_blanck"
-              href="https://docs.google.com/document/d/1ziy1dPimT-E23iJuSbz0nGelAvLbQnoMzEYpjb5SLf8/view"
+              href="https://docs.google.com/document/d/1pHsYHB8XL5QpDFVQ7rXr-ewlV-BGC8GPSY8V2Gf3DS8/view"
             >
               rules
             </a>
-          </p> */}
+          </p>
         </div>
         <div className={styles.row__column}>
           <Map />
