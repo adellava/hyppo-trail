@@ -61,6 +61,11 @@ export default function Home() {
               href="https://docs.google.com/document/d/1tFjGzyMs6XhUHhFCs37sNum7AuV8YPR8qFyQjkTRTF4/view"
             >
               regolamento
+            </a>e sfoglia la<a
+              target="_blanck"
+              href="https://docs.google.com/presentation/d/1h1uCK1MpjlZbFThtmPQCq_fCn8XZbUI-eiPultehJPs/view"
+            >
+              presentazione dell'evento
             </a>
           </p>
         </div>

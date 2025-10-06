@@ -58,7 +58,7 @@ export default function Home() {
             tyre 😜 and comfortable shoes.
           </p>
           <p className={styles.paragraph___featured}>
-            The challenge is to complete it within 20 hours ( 02:30 of Aprile 12 ).
+            The challenge is to complete it within 20 hours ( 02:30 of April 12 ).
           </p>
           <p className={styles.paragraph}>
             If you complete it successfully you can consider yourself ready for
@@ -71,6 +71,11 @@ export default function Home() {
               href="https://docs.google.com/document/d/1pHsYHB8XL5QpDFVQ7rXr-ewlV-BGC8GPSY8V2Gf3DS8/view"
             >
               rules
+            </a>{" "}and the{" "}<a
+              target="_blanck"
+              href="https://docs.google.com/presentation/d/1bBqUNS2DObvj7OXV7frxlwSzCkw4D7kdokBWW8EXEVQ/view"
+            >
+              event presentation
             </a>
           </p>
         </div>
