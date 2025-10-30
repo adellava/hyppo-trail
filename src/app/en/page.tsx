@@ -88,7 +88,7 @@ export default function Home() {
           <h2 className={styles.subtitle}>Partner</h2>
           <div className={styles.horizonatalFlex}>
             <BikemapLogo />
-            <HabitatLogo />
+            {/* <HabitatLogo /> */}
           </div>
         </div>
         <div className={styles.row__column}>
