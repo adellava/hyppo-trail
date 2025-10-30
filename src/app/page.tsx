@@ -24,11 +24,18 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           La Hippo è un unsupported bikepacking trail, single stage, fixed route
-          210 km / 4700 D+ da concludere in 20 ore
+          200 km / 4800 D+ da concludere in 20 ore
           <br />
           Massimo 150 partecipanti
         </p>
         <p className={styles.heroDate}>Treviso, 11 Aprile 2026 @6:30AM</p>
+        <a
+          className={styles.mainCta}
+          target="_blanck"
+          href="https://keepsporting.com/cr/68e6ba07ef8b6b0ce6213b97/hippo-bike-trail-2026"
+        >
+          iscrizioni
+        </a>
         <CoverImage />
       </section>
       <section className={styles.row}>
@@ -37,11 +44,11 @@ export default function Home() {
           <p className={styles.paragraph}>
             La Hippo Bike Trail si sviluppa su un percorso ad anello, con
             partenza e arrivo a{" "}
-            <a href="https://www.instagram.com/habitatbistrot/" target="_black">
+            <a href="https://www.instagram.com/borgoluce/" target="_black">
               {" "}
-              Habitat le Bandie
+              Borgoluce
             </a>
-            , lungo 210 km ( sterrato all’85% ) con 4700 metri di dislivello.
+            , lungo 200 km ( sterrato all’85% ) con 4800 metri di dislivello.
             Dentro la Hippo trail troverete tutti gli ingredienti di un vero
             trail: hike-a-bike, guadi, un lungo tratto in quota senza presenza
             umana, discese scassate, ... insomma non presentatevi se non avete
@@ -110,7 +117,7 @@ export default function Home() {
         <p className={styles.footer__address}>
           Copyright © 2023 AMG ALTA MARCA GRAVEL ASD, VIA II GIUGNO, 54 VILLORBA
           (TV) P.IVA: 05286420269
-          <br/>
+          <br />
           amg.gravel@gmail.com
         </p>
         <p className={styles.footer__iubenda}>

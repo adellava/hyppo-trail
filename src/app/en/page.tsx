@@ -24,18 +24,18 @@ export default function Home() {
       <section className={styles.coverImage}>
         <p className={styles.heroDescription}>
           Hippo is an unsupported bikepacking trail, single stage, fixed route
-          210 km / 4700 D+ in 20 hours
+          200 km / 4800 D+ in 20 hours
           <br />
           Max 150 participants
         </p>
         <p className={styles.heroDate}>Treviso, April 11th 2026 @6:30:00AM</p>
-        {/* <a
+        <a
           className={styles.mainCta}
           target="_blanck"
-          href="https://api.endu.net/r/i/94851"
+          href="https://keepsporting.com/cr/68e6ba07ef8b6b0ce6213b97/hippo-bike-trail-2026"
         >
           registration
-        </a> */}
+        </a>
         <CoverImage />
       </section>
       {/* <section className={styles.row}>
@@ -47,11 +47,11 @@ export default function Home() {
           <p className={styles.paragraph}>
             The Hippo Bike Trail develops on a circular route, with departure
             and arrival at{" "}
-            <a href="https://www.instagram.com/habitatbistrot/" target="_black">
+            <a href="https://www.instagram.com/borgoluce/" target="_black">
               {" "}
-              Habitat le Bandie
+              Borgoluce
             </a>
-            , 210 km long (dirt road at 85%) with 4700 meters of altitude
+            , 200 km long (dirt road at 85%) with 4800 meters of altitude
             difference. Inside the Hippo trail you will find all the ingredients
             of a real trail: hike-a-bike, fords crossing, a long part without
             human presence, rocky descents , ... in short, use at least a 50mm
