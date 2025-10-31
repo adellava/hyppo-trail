@@ -8,7 +8,7 @@ const opensans = Open_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Hippo Bike Trail",
   description:
-    "an unsupported bikepacking trail 210 km and 4500 D+ to be completed in 18h",
+    "an unsupported bikepacking trail 200 km and 4800 D+ to be completed in 20h",
 };
 
 export default function RootLayout({
